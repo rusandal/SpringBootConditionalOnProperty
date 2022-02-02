@@ -9,7 +9,7 @@ public class SpringParametersApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(SpringParametersApplication.class, args);
+        var context = SpringApplication.run(SpringParametersApplication.class, args);
     }
 
 }
